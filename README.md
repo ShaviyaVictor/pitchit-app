@@ -12,7 +12,8 @@ This project is all about building *an application that allows users to use 60 s
 
 #### Live link to site
 The project was deployed to Heroku and GitHub pages for publication.     
-To view the [project's live site](#).
+To view the [project's Heroku live site](#).
+To view the [project's Figma mockup design](https://www.figma.com/file/qeZDiQCa0HpywMdz9OcQ8L/pitchit-app?node-id=3%3A24).
 
 ## Application Setup Instructions
 - Open Terminal {Ctrl+Alt+T}     
