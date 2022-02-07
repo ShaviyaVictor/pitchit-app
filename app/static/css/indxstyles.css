@@ -10,3 +10,21 @@ body {
 /* .container {
   text-align: center;
 } */
+
+.txtalign {
+  /* text-align: center !important; */
+  margin: 0 auto !important;
+  width: 25%;
+}
+
+.btn-outline-success {
+  color: #fff !important;
+  border: white !important;
+  background-color: violet;
+
+}
+
+input {
+  text-align: center;
+  
+}
