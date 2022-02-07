@@ -25,7 +25,18 @@ nav a>img {
 }
 
 
+nav {
+  margin: 0px;
+  background-color: #584223 !important;
 
-* {
+}
+
+body {
+  margin: 0px;
   background-color: #584223;
+  background-image: url('../images/PitchIt!\ BG.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
 }
