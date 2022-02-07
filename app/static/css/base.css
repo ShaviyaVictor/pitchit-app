@@ -9,17 +9,23 @@ font-family: 'Playfair Display', serif;  */
 
 nav a h2 {
   font-family: 'Cairo', sans-serif;
+  color: #fff !important;
 }
 h1 {
   font-family: 'Playfair Display', serif; 
+  color: #fff;
 }
 
 .nav-item {
-  display: inline-flex;
-  justify-content: space-around;
+  color: #fff !important;
+}
+
+nav a>img {
+  width: 8rem;
 }
 
 
+
 * {
-  background-color: aqua;
+  background-color: #584223;
 }
