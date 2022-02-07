@@ -1,4 +1,3 @@
-from turtle import title
 from flask import render_template
 from app import app
 
@@ -22,4 +21,7 @@ def pitch() :
   '''
   View pitch page function that returns the pitches available
   '''
-  return render_template('pitch.html')
+
+  title = 'Pitches'
+
+  return render_template('pitch.html', title = title)
