@@ -1,24 +1,13 @@
-<!DOCTYPE html>
-<html>
-  <head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Victor Shaviya">
-    {% if title %}
-    <title> {{ title }} </title>
-    {% else %}
-    <title>Pitch It App!</title>
-    {% endif %}
-
-  </head>
-  <body>
-    
-    <h1>
-      PITCH IT!
-    </h1>
-
-  </body>
+{% extends 'base.html' %}
 
 
-</html>
+
+<!-- Content block -->
+
+{% block content %}
+
+<h1>
+  PITCH IT!
+</h1>
+
+{% endblock %}
