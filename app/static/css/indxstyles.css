@@ -18,8 +18,7 @@ body {
 }
 
 .btn-outline-success {
-  color: #fff !important;
-  border: white !important;
+  color: #000 !important;
   background-color: violet;
 
 }
@@ -35,4 +34,16 @@ button.right {
 
 button.left {
   float: left;
+}
+
+.bg {
+  background-color: #F2E0B0;
+}
+
+.form-control::-webkit-input-placeholder{
+  color: #000;
+}
+
+div>button:hover {
+  background-color: #F2E0B0 ;  
 }
