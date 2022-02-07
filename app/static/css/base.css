@@ -7,6 +7,19 @@ font-family: 'Playfair Display', serif;  */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
 
 
+nav a h2 {
+  font-family: 'Cairo', sans-serif;
+}
+h1 {
+  font-family: 'Playfair Display', serif; 
+}
+
+.nav-item {
+  display: inline-flex;
+  justify-content: space-around;
+}
+
+
 * {
   background-color: aqua;
 }
