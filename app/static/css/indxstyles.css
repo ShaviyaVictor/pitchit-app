@@ -1,11 +1,12 @@
-h1 {
-  color: white;
+.white {
+  color: white !important;
 }
 
 body {
   text-align: center;
 }
 
+/* Is not helpful for now since we have included the div.col container */
 /* .container {
   text-align: center;
 } */
