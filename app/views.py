@@ -18,3 +18,4 @@ def pitch() :
   '''
   View pitch page function that returns the pitches available
   '''
+  return render_template('pitch.html')
