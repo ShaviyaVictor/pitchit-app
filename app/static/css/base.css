@@ -1,0 +1,12 @@
+/* For the Nav Bar and the links
+font-family: 'Cairo', sans-serif;  */
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
+/* For the h1 
+font-family: 'Playfair Display', serif;  */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+
+* {
+  background-color: aqua;
+}
