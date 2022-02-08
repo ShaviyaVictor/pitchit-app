@@ -1,0 +1,13 @@
+.container {
+  margin: 8%;
+}
+.center {
+  background-color: white;
+  padding: 2rem;
+  width: 50%;
+  margin-left: 28%;
+}
+
+.bottom {
+  text-align: center;
+}

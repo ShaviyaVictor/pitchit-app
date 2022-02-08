@@ -3,18 +3,15 @@
 # from cProfile import run
 # from multiprocessing import Manager
 # from flask_script import Manager
-
-
-
 from app import app
 
-from flask import Flask
+# from flask import Flask
 
 
 # manager = Manager(app)
 
 
-from app.models import user
+# from app.models import user
 
 # app = Flask(__name__)
 
