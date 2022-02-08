@@ -1,5 +1,6 @@
 from flask import render_template
 from app import app
+from forms import logInForm, signUpForm, pitchForm
 
 
 
@@ -34,9 +35,11 @@ def login() :
   View login page function that opens the login form
   '''
 
+  form = logInForm()
+
   title = 'Pitch it | login'
 
-  return render_template('login.html', title = title)
+  return render_template('login.html', title = title, form = form)
 
 
 
@@ -46,9 +49,11 @@ def register() :
   View registration page function that opens the registration form
   '''
 
+  form = signUpForm()
+
   title = 'Pitch it | sign up'
 
-  return render_template('signup.html', title = title)
+  return render_template('signup.html', title = title, form = form)
 
 
 
@@ -57,6 +62,7 @@ def logout() :
   '''
   View logout page function that logs a user out
   '''
+
 
   title = 'Pitch it | logout'
 
