@@ -1,5 +1,6 @@
 from flask import Flask
 from .config import DevConfig
+# from flask_sqlalchemy import SQLAlchemy
 from flask_sqlalchemy import SQLAlchemy
 
 
@@ -8,7 +9,9 @@ from flask_sqlalchemy import SQLAlchemy
 # Initializing application
 app = Flask(__name__)
 
-db = SQLAlchemy()
+db = SQLAlchemy(app)
+
+# db = SQLAlchemy()
 
 # Setting up configuration
 app.config.from_object(DevConfig)
@@ -16,7 +19,7 @@ app.config.from_object(DevConfig)
 
 # Initializing Flask Extensions
 # bootstrap = Bootstrap(app)
-db.init_app(app)
+# db.init_app(app)
 
 
 from app import views
