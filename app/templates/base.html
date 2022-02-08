@@ -2,6 +2,7 @@
 <html>
   <head>
 
+    {% block head %}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Victor Shaviya">
@@ -11,9 +12,12 @@
     <title>Pitch It App!</title>
     {% endif %}
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../static/fontawesome/css/fontawesome.min.css">
     
     <link rel="stylesheet" href="../static/css/base.css">
 
+    {% endblock %}
 
   </head>
   <body>
@@ -30,9 +34,9 @@
             <a class="nav-item nav-link" href="/">Home</a>
             <a class="nav-item nav-link" href="/pitches">Categories</a>
             <a class="nav-item nav-link" href="/pitches">Pitch of the day</a>
-            <a class="nav-item nav-link" href="#">Login</a>
-            <a class="nav-item nav-link" href="#">Register</a>
-            <a class="nav-item nav-link" href="#">LogOut</a>
+            <a class="nav-item nav-link" href="/login">Login</a>
+            <a class="nav-item nav-link" href="/register">Register</a>
+            <a class="nav-item nav-link" href="/logout">LogOut</a>
           </div>
         </div>
       </nav>
@@ -49,16 +53,20 @@
 
 
 
+    <div id="footer">
+      {% block footer %}
+      <footer>
 
-    <!-- <footer>
-
-      <div class="container-fluid bottom">
-        <h6>
-          Copyright &copy;2022 || NewsAPI
-        </h6>
-      </div>
-
-    </footer> -->
+        <div class="container-fluid bottom">
+          <h6>
+            Copyright &copy; 2022 || Shaviya || PitchIt! 
+          </h6>
+        </div>
+  
+      </footer>
+      {% endblock %}
+    </div>
+    
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

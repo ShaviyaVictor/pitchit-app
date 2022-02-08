@@ -47,6 +47,10 @@ body {
 
 
 
-/* .bottom {
+.bottom {
+  margin-top: 10%;
   background-color: #584223;
-} */
+  color: #fff;
+  margin-bottom: 0;
+  padding: 1rem;
+}
