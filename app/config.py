@@ -6,7 +6,6 @@ class Config :
   # SQLALCHEMY_DATABASE_URI='postgresql+psycopg2://postgres:Access@localhost/pitchit'
 
 
-
 class ProdConfig(Config) :
   '''
   Production  configuration child class

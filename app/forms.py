@@ -5,6 +5,8 @@
 # from wtforms import StringField, PasswordField, BooleanField, IntegerField
 # from wtforms.validators import InputRequired, Length, Email
 
+
+
 # class logInForm(FlaskForm) :
 #   username = StringField('username', validators=[InputRequired(), Length(min = 4, max = 15)])
 #   password = PasswordField('password', validators=[InputRequired(), Length(min = 8, max = 80)])
@@ -22,4 +24,4 @@
 
 
 # class pitchForm(FlaskForm) :
-#   pitch = StringField('pitch', widget=Textarea(), validators=[InputRequired()])
+#   pitch = StringField('pitch', validators=[InputRequired()])

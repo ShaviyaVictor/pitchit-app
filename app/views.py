@@ -2,7 +2,7 @@ from flask import render_template
 from app import app
 # from .forms import logInForm, signUpForm, pitchForm
 
-
+# app.config['SECRET_KEY']=''
 
 # views
 @app.route('/')
@@ -66,4 +66,4 @@ def logout() :
 
   title = 'Pitch it | logout'
 
-  return render_template('logout.html', title = title)
+  return render_template('index.html', title = title)
