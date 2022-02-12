@@ -1,7 +1,7 @@
 # rejelea App
 
 This project was generated with [Python's Virtual CLI Environment](#) version 3.8.10     
-![pitchit_Screenshot](#)
+![pitchit_Screenshot](https://github.com/ShaviyaVictor/pitchit-app/blob/master/app/static/images/Screenshot.png)
 
 #### Author
 **Victor Shaviya**    
