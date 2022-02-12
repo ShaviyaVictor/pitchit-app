@@ -13,7 +13,7 @@ This project is all about building *an application that allows users to use 60 s
 
 #### Live link to site
 The project was deployed to Heroku and GitHub pages for publication.     
-To view the [project's Heroku live site](#).    
+To view the [project's Heroku live site](https://pichitup.herokuapp.com/).    
 To view the [project's Figma mockup design](https://www.figma.com/file/qeZDiQCa0HpywMdz9OcQ8L/pitchit-app?node-id=3%3A24).
 
 ## Application Setup Instructions
@@ -37,7 +37,9 @@ To run unittest for the application:
 - Postgresql
 
 ## Contact Information
-**Email:** [shaviyavictor@gmail.com](#)
+**Email:** [shaviyavictor@gmail.com](#)    
+**LinkedIn:** [VictorShaviya](https://www.linkedin.com/in/victor-shaviya-532ab0110/)
+
 
 ## License and Copyright Information
 [MIT License](https://github.com/ShaviyaVictor/pitchit-app/blob/main/LICENSE)
