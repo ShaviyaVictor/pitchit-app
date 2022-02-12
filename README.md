@@ -3,6 +3,8 @@
 This project was generated with [Python's Virtual CLI Environment](#) version 3.8.10     
 ![pitchit_Screenshot](https://github.com/ShaviyaVictor/pitchit-app/blob/master/app/static/images/Screenshot.png)
 
+Link to the [Mockup design](https://www.figma.com/file/qeZDiQCa0HpywMdz9OcQ8L/pitchit-app?node-id=26%3A3)
+
 #### Author
 **Victor Shaviya**    
 Moringa School Core(Python/Flask) Student.
